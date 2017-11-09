@@ -1,0 +1,53 @@
+1st submission
+
+1.	ps -ef, processes that are running
+	ps -aux, how much memory and cpu processing is being used
+
+	sort arranges it's list of files based on columns you list
+
+	ls -l shows names of files in my directory, permissions & creation date/time
+	ls -a shows filenames with bash info
+	ls -b shows filenames only
+	
+
+2.  ps -ef|sort %mem > top_cpu_out.txt
+
+3.  mkdir -m 750 user01
+
+4.  chmod 751  chmod rwxrx---x
+
+5.  commands that temporarily grant permissions
+
+
+
+3 4 AND 5 ARE PROBABLY OK
+
+
+
+---------------------------------------------------
+
+2nd submission
+
+CIS204 - 12296-Project 1
+
+1.	ps -ef, processes that are running
+	ps -aux, how much memory and cpu processing is being used
+
+
+	sort arranges it's list of files based on columns you list
+		k sorts by a key field
+		n is a numeric indicating which column to sort by
+		r causes the output to be listed in reverse order
+
+	ls -l shows names of files in my directory, permissions & creation date/time
+	ls -a shows filenames with bash info
+	ls -b shows filenames only
+	
+
+2.  ps -aux|sort -k3nr|tail -10 >> top_cpu_out.txt
+
+3.  mkdir -m 750 user01
+
+4.  chmod 751  chmod rwxrx---x
+
+5.  commands that temporarily grant permissions
